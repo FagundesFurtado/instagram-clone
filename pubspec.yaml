@@ -1,0 +1,43 @@
+name: instagram
+description: A new Flutter project.
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  dio: ^3.0.3
+  rxdart: ^0.22.2
+  bloc_pattern: ^2.3.3
+  transparent_image: any
+  flutter_file_manager: 0.2.0
+  file_picker: 1.4.2
+  camera: 0.5.5+1
+  path_provider:
+  path:
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/comment.png
+    - assets/direct.png
+    - assets/like.png
+    - assets/liked.png
+    - assets/save.png
+    - assets/camera.png
+    - assets/igtv.png
+    - assets/more.png
+
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: fonts/Billabong.ttf
